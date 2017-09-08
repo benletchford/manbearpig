@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+import project
+
+
+def main(name):
+    something = project.Something(args.name)
+
+    print something.greet()
+
+
+if __name__ == '__main__':
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Greets you.')
+    parser.add_argument('--name', default='Stan Darsh', help='Your name.')
+
+    args = parser.parse_args()
+
+    main(args.name)
