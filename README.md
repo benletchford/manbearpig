@@ -8,7 +8,7 @@
 ```
 /{{ project }}
 |-- bin
-|   -- greet
+|   -- runnable_something
 |-- docs
 |   -- ??
 |-- {{ project }}
