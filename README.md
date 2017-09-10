@@ -1,7 +1,7 @@
 <p align="center"><img src="artwork/manbearpig.png"></p>
 
 <p align="center">
-  <b>manbearpig</b> is a *super-serial* python application structure / layout example.
+  <b>manbearpig</b> is a <i>super-serial</i> python application structure / layout example.
 </p>
 
 ## TL;DR
